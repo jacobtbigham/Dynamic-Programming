@@ -133,7 +133,12 @@ public class Text_Justify_Java {
 		return result;
 	}
 	
-	
+	/**
+	 * Justifies a given textual input to the given line width using a dynamic programming strategy.
+	 * @param inputText the text to justify
+	 * @param width the line width
+	 * @return the justified text (delineated by a newline)
+	 */
 	public static String dpJustifyText(String inputText, int width)
 	{
 		HashMap<Integer, int[]> costDict = new HashMap<Integer, int[]>();
