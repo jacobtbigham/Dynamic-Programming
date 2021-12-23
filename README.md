@@ -1,2 +1,2 @@
-# dyanimic_programming
+# Dynamic Programming
 DP Solutions to Programming Problems
